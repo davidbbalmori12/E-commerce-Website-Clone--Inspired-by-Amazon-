@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON</title>
+    <link rel="stylesheet" href="amazonHead.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <header>
+        <section class="header">
+            <a href="amazon.html" ><img src="imagenes/amazon-logo-white.png" alt="" class="logo"></a>
+        <button class="ubicacion">
+            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+            <div>
+                <span>Entrega en Mexico City</span>
+                <span style="font-weight: bold; font-size: 0.8rem;">Actualizar ubicacion</span>
+            </div>
+        </button>
+        <div class="buscador">
+            <button class="categorias">Todas las categorias <i class="fa-solid fa-chevron-down"></i></button>
+            <input type="text">
+            <button class="buscador-i"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+        </div>
+        <button class="identificacion">
+            <span>Hola,identificate</span>
+            <span style="font-weight: bold; font-size: 0.8rem;">Cuenta y Listas <i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <button class="pedidos">
+            <span>Devoluciones</span>
+            <span style="font-weight: bold; font-size: 0.8rem;">y Peidos</span>
+        </button>
+        <button class="carro" onclick="window.location.href='amazonCompra.html'">
+            <img src="imagenes/cart-icon.png" alt="">
+            <p class="numProductos" style="color: goldenrod; font-size: 1rem; margin:0;">0</p>
+            <span>Carrito</span>
+        </button>
+    </section>
+    </header>
+    <main>
+        <div class="nav"></div>
+        <div class="productos">
+        </div>
+    </main>
+    <script type="module" src="amazonProductos.js"></script>
+</body>
+</html>

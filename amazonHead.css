@@ -1,0 +1,102 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 3.5rem;
+    background-color: rgb(26, 26, 26);
+    align-items: center;
+    text-align: justify;
+    position:fixed;
+    z-index: 100;
+    top: 0;
+}
+header button{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+}
+.logo{
+    height: 2rem;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 5px;
+}
+.ubicacion i{
+    padding-bottom: 3px;
+}
+.ubicacion div{
+    display: flex;
+    flex-direction: column;
+}
+.buscador{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.5rem;
+}
+.buscador button{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.buscador-i{
+    background-color: rgb(231, 194, 30);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+.buscador input{
+    height: 34px;
+}
+.categorias{
+    background-color: rgb(216, 216, 216);
+    color: rgb(73, 73, 73);
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+}
+.carro{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.carro:hover{
+    border: 1px solid white;
+    padding: 9px;
+}
+.carro img{
+    width: 2.7rem;
+}
+.numProductos{
+    position:relative;
+    bottom: 15px;
+    right: 23px;
+}
+.Dia{
+    display: flex;
+    gap: 0.5rem;
+}
+.opcionesDia{
+    display: flex;
+    gap: 0.7rem;
+    flex-direction: column;
+}
